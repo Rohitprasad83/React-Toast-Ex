@@ -1,0 +1,33 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.toast {
+  border: 2px solid black;
+  border-radius: 5px;
+  width: max-content;
+  background-color: blanchedalmond;
+  padding: 1em;
+  display: flex;
+  gap: 2rem;
+  /* position: absolute;
+  top: 1rem;
+  right: 1rem; */
+}
+
+.showToast {
+  margin: 5rem auto;
+}
+
+.success {
+  background-color: chartreuse;
+}
+
+.primary {
+  background-color: darkcyan;
+}
+
+.error {
+  background-color: firebrick;
+}
